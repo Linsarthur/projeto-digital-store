@@ -221,6 +221,11 @@ main {
             display: flex;
             align-items: center;
             justify-content: center;
+            transition-duration: 200ms;
+
+            &:hover{
+                box-shadow: 0 0 70px #00000020;
+            }
             img{
                 width: 64px;
                 &.bone{
