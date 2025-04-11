@@ -188,7 +188,12 @@ main {
             right: 0;
         }
 
-
+        .pontinhos{
+            position: absolute;
+            bottom: 50px;
+            left: 45%;
+           
+        }
 
 
 
