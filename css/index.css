@@ -11,6 +11,11 @@
 
 }
 
+hr {
+    color: #FFFFFF;
+    width: 80%;
+}
+
 .btn {
     line-height: 40px;
     border-radius: 8px;
@@ -39,7 +44,7 @@
 }
 
 header {
-    background-color: white;
+    background-color: #F9F8FE;
     padding: 34px 100px 29px 100px;
 
     .topo {
@@ -145,7 +150,7 @@ header {
 }
 
 main {
-    background-color: #FFFFFF;
+    background-color: #F9F8FE;
 
     #banner {
         display: flex;
@@ -301,7 +306,7 @@ main {
     }
 
     #produtos {
-        margin: 0 100px;
+        margin: 0 5%;
         margin-top: 123px;
 
         & .titulo {
@@ -326,7 +331,11 @@ main {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
 
+
             h6 {
+                position: absolute;
+                top: 20px;
+                left: 20px;
                 font-size: 14px;
                 text-transform: uppercase;
                 line-height: 32px;
@@ -337,5 +346,232 @@ main {
                 margin-bottom: 10px;
             }
         }
+
+        & .card {
+            margin-bottom: 40px;
+            margin-right: 24px;
+            position: relative;
+
+
+            & a {
+
+                & .imagem {
+                    background-color: #FFFFFF;
+                    box-shadow: 6px 16px 30px #6962620D;
+                    margin-bottom: 18px;
+                    border-radius: 4px;
+                }
+
+                & span {
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 24px;
+                    color: #8F8F8F;
+
+                }
+
+                & h4 {
+                    color: #474747;
+                }
+
+                & h5 {
+                    color: #1F1F1F;
+                    font-weight: 700;
+
+                    & del {
+                        color: #8F8F8F;
+                        text-decoration: line-through;
+                        margin-right: 8px;
+                    }
+                }
+
+            }
+        }
     }
+
+    #special-offer {
+        background-color: #FFFFFF;
+
+        & .container-special {
+            display: flex;
+            margin: 0 150px 100px 0;
+            padding-top: 120px;
+            gap: 67px;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        & .imagem-destaque {
+            margin-left: 129px;
+            border-radius: 50%;
+            background: linear-gradient(to bottom, #eee7ff, rgba(255, 255, 255, 0));
+
+            & img {
+                margin-top: 25px;
+            }
+        }
+
+        & .texto-secao {
+            & h6 {
+                color: #C92071;
+                font-size: 14px;
+                margin-bottom: 17px;
+            }
+
+            & h2 {
+                color: #474747;
+                font-size: 48px;
+                margin-bottom: 20px;
+            }
+
+            & p {
+                color: #474747;
+                font-size: 14px;
+                margin-bottom: 30px;
+                line-height: 28px;
+            }
+
+            & .btn {
+                width: 200px;
+            }
+        }
+
+    }
+}
+
+footer {
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+
+
+
+    #info {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+
+        & .logo {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+
+            margin: 72px 0 0 100px;
+
+            & img {
+                margin-right: 8px;
+                width: 33px;
+                height: 33px;
+            }
+
+            & .logo-image {
+
+                display: flex;
+                align-items: center;
+                font-size: 36.4px;
+                margin-bottom: 35px;
+            }
+
+            &>p {
+                margin-bottom: 40px;
+                margin-right: 205px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+            }
+
+            & .social-midias {
+                & a {
+                    margin-right: 35px;
+                }
+            }
+        }
+
+        & .nav-footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 100px;
+            margin-bottom: 100px;
+            margin-top: 72px;
+
+            & .about {
+                margin-right: 102px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                width: 135px;
+                height: 278px;
+                margin-bottom: 35px;
+
+                & h5 {
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 100%;
+                    margin-bottom: 28px;
+                }
+
+                &>a {
+                    color: white;
+                    font-weight: 200;
+                    font-size: 12px;
+                    line-height: 38px;
+                }
+            }
+
+            & .categories {
+                width: 135px;
+                height: 278px;
+                margin-right: 102px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                margin-bottom: 35px;
+
+                & h5 {
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 100%;
+                    margin-bottom: 28px;
+                }
+
+                &>a {
+                    color: white;
+                    font-weight: 200;
+                    font-size: 12px;
+                    line-height: 38px;
+                }
+            }
+
+            & .contact {
+                width: 135px;
+                height: 278px;
+                margin-right: 102px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                margin-bottom: 35px;
+
+                & h5 {
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 100%;
+                    margin-bottom: 28px;
+                }
+
+                &>p {
+                    color: white;
+                    font-weight: 200;
+                    font-size: 12px;
+                    line-height: 38px;
+                }
+            }
+        }
+
+    }
+
+
+
+
 }
