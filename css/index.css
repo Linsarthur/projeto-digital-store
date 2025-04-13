@@ -443,8 +443,6 @@ footer {
     background-color: #1F1F1F;
     color: #FFFFFF;
 
-
-
     #info {
         display: flex;
         align-items: center;
@@ -567,6 +565,25 @@ footer {
                     line-height: 38px;
                 }
             }
+        }
+
+    }
+
+    .eu {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+        & p {
+            padding-top: 25px;
+            text-align: center;
+            width: 80%;
+            margin: 25px 100px;
+            border-top: 0.5px solid #474747;
+            border-width: 80%;
         }
 
     }
