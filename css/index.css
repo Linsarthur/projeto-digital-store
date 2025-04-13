@@ -570,7 +570,6 @@ footer {
     }
 
     .eu {
-        width: 100vw;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -581,7 +580,7 @@ footer {
             padding-top: 25px;
             text-align: center;
             width: 80%;
-            margin: 25px 100px;
+            margin-bottom: 25px ;
             border-top: 0.5px solid #474747;
             border-width: 80%;
         }
