@@ -470,7 +470,7 @@ main {
 }
 
 footer {
-    background-color: black;
+    background-color: #1f1f1f;
     color: white;
     padding: 100px 100px 0 100px;
 
@@ -490,177 +490,74 @@ footer {
                 line-height: 26px;
                 margin-bottom: 40px;
             }
-            & .redes{
+
+            & .redes {
                 display: flex;
                 gap: 35px;
 
                 & box-icon {
                     fill: white;
                     transition-duration: 200ms;
-                    &:hover{
+
+                    &:hover {
                         fill: #C92071;
                     }
                 }
             }
+
         }
-        
-    }
 
 
-
-
-
-
-
-
-
-    /* background-color: #1F1F1F;
-    color: #FFFFFF;
-
-    #info {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-
-
-        & .logo {
+        & .sitemap {
             display: flex;
-            flex-direction: column;
-            align-items: start;
             justify-content: center;
+            gap: 50px;
 
-            margin: 72px 0 0 100px;
 
-            & img {
-                margin-right: 8px;
-                width: 33px;
-                height: 33px;
-            }
+            & div {
+                width: 170px;
 
-            & .logo-image {
 
-                display: flex;
-                align-items: center;
-                font-size: 36.4px;
-                margin-bottom: 35px;
-            }
 
-            &>p {
-                margin-bottom: 40px;
-                margin-right: 205px;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 26px;
-            }
 
-            & .social-midias {
+                & h5 {
+                    margin-bottom: 28px;
+                    color: #FFFFFF;
+                    font-size: 18px;
+                    font-weight: semi-bold;
+                }
+
                 & a {
-                    margin-right: 35px;
+                    display: block;
+                    color: white;
+                    transition-duration: 200ms;
+                    margin-bottom: 16px;
+
+                    &:hover {
+                        color: #C92071;
+                    }
+
+                    & address {
+                        font-style: normal;
+                    }
+
                 }
             }
         }
 
-        & .nav-footer {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 100px;
-            margin-top: 72px;
-
-            & .about {
-                margin-right: 102px;
-                display: flex;
-                flex-direction: column;
-                gap: 10px;
-                width: 135px;
-                height: 278px;
-                margin-bottom: 35px;
-
-                & h5 {
-                    font-weight: 600;
-                    font-size: 18px;
-                    line-height: 100%;
-                    margin-bottom: 28px;
-                }
-
-                &>a {
-                    color: white;
-                    font-weight: 200;
-                    font-size: 12px;
-                    line-height: 38px;
-                }
-            }
-
-            & .categories {
-                width: 135px;
-                height: 278px;
-                margin-right: 102px;
-                display: flex;
-                flex-direction: column;
-                gap: 10px;
-                margin-bottom: 35px;
-
-                & h5 {
-                    font-weight: 600;
-                    font-size: 18px;
-                    line-height: 100%;
-                    margin-bottom: 28px;
-                }
-
-                &>a {
-                    color: white;
-                    font-weight: 200;
-                    font-size: 12px;
-                    line-height: 38px;
-                }
-            }
-
-            & .contact {
-                width: 135px;
-                height: 278px;
-                margin-right: 102px;
-                display: flex;
-                flex-direction: column;
-                gap: 10px;
-                margin-bottom: 35px;
-
-                & h5 {
-                    font-weight: 600;
-                    font-size: 18px;
-                    line-height: 100%;
-                    margin-bottom: 28px;
-                }
-
-                &>p {
-                    color: white;
-                    font-weight: 200;
-                    font-size: 12px;
-                    line-height: 38px;
-                }
-            }
-        }
 
     }
 
-    .eu {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    & .eu {
+        text-align: center;
+        padding: 22px 0;
+        border-top: solid 1px #FFFFFF50;
+        margin-top: 34px;
 
-
-
-        & p {
-            padding-top: 25px;
-            text-align: center;
-            width: 80%;
-            margin-bottom: 25px;
-            border-top: 0.5px solid #474747;
-            border-width: 80%;
+        p {
+            margin-top: 23px;
+            margin-bottom: 24px;
         }
 
-    } */
-
-
-
-
+    }
 }
